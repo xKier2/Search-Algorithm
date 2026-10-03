@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Algorithms Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Search Algorithms</div>
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-algo="bfs">BFS</button>
+            <button class="tab-btn" data-algo="dfs">DFS</button>
+            <button class="tab-btn" data-algo="astar">A*</button>
+        </nav>
+    </header>
+
+    <div class="sub-header">
+        <div class="algorithm-info">
+            <h1 id="algoTitle">Breadth-First Search</h1>
+            <p id="algoDesc">Explores the graph level by level.</p>
+        </div>
+
+        <div class="path-container">
+            <div id="pathMetrics" class="result-badge searching">Exploring nodes...</div>
+        </div>
+    </div>
+
+    <main class="canvas-container">
+        <canvas id="graphCanvas"></canvas>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
