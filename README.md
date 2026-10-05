@@ -4,7 +4,7 @@ An interactive web-based visualization of fundamental graph search algorithms. T
 
 The visualization shows a simple way to observe the behavior of each algorithm step-by-step, making it useful for learning and understanding graph traversal and pathfinding concepts.
 
-##Features
+## Features
 
 - **Breadth-First Search (BFS)** — explores the graph level by level.
 - **Depth-First Search (DFS)** — explores as far as possible along a branch before backtracking.
@@ -15,21 +15,21 @@ The visualization shows a simple way to observe the behavior of each algorithm s
 - Interactive graph rendered using the HTML "<canvas>" element.
 - Responsive layout that adjusts to the available screen size.
 
-##Algorithms
+## Algorithms
 
-###Breadth-First Search
+### Breadth-First Search
 
 BFS explores nodes level by level using a queue. It is useful for finding the shortest path in terms of the number of edges in an unweighted graph.
 
-###Depth-First Search
+### Depth-First Search
 
 DFS explores one branch as deeply as possible before backtracking. It uses a stack-based traversal approach.
 
-###A* Search
+### A* Search
 
 A* combines the actual cost of reaching a node with a heuristic estimate of the remaining distance to the goal. In this project, edge weights are used as movement costs and a distance-based heuristic helps guide the search toward the goal.
 
-##Project Structure
+## Project Structure
 ```text
 Search-Algorithm/
 ├── index.html
@@ -39,7 +39,7 @@ Search-Algorithm/
 └── README.md
 ```
 
-##Requirements
+## Requirements
 
 No external libraries, frameworks, packages, or build tools are required.
 
